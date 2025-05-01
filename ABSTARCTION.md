@@ -34,11 +34,41 @@ To write a Python program to define the abstract base class named `Polygon` and 
 ### PROGRAM
 
 ```
+#Reg_no: 212223060288
+#Name: Tharun Kumaran G
 
+from abc import ABC  
+class Polygon(ABC): 
+   def sides(self):   
+      pass  
+class Triangle(Polygon):   
+   def sides(self):   
+      print("Triangle has 3 sides")   
+class Pentagon(Polygon):   
+    def sides(self):   
+      print("Pentagon has 5 sides")   
+class Hexagon(Polygon):
+    def sides(self):   
+      print("Hexagon has 6 sides") 
+class square(Polygon):   
+   def sides(self):   
+      print("I have 4 sides")   
+   
+t = Triangle()   
+t.sides() 
+s = square()
+s.sides()
+p = Pentagon()   
+p.sides() 
+k = Hexagon()   
+k.sides()
 
 ```
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/cee322f0-214d-43fe-9e72-19ebb1483e77)
 
 ### RESULT
+
+Thus, the python program to define the abstract base class named `Polygon` and also define the abstract method has been executed and verified successfully.
