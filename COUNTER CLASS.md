@@ -54,7 +54,7 @@ print("Current Counter Value:", counter.value())
 
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/e0400277-ad31-4601-ae48-a41bec5eabdd)
+![image](https://github.com/user-attachments/assets/1c0241b1-35ce-4bfc-ac64-8a275c6018ed)
 
 ### RESULT
 
