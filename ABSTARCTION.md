@@ -67,7 +67,7 @@ k.sides()
 
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/cee322f0-214d-43fe-9e72-19ebb1483e77)
+![image](https://github.com/user-attachments/assets/c2f971d4-5e46-4b4b-8ced-5f96ebef6c6d)
 
 ### RESULT
 
