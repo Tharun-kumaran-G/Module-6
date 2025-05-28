@@ -35,33 +35,23 @@ To write a Python program to perform division of two complex numbers using the b
 #Reg_no: 212223060288
 #Name: Tharun Kumaran G
 
-class Complex:
-    def __init__(self, real, imag):
-        self.real = real
-        self.imag = imag
+class complex:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+    def __add__(self,x):
+        return self.a/x.a,self.b/x.b
 
-    def __truediv__(self, other):
-        denom = other.real**2 + other.imag**2
-        real_part = (self.real * other.real + self.imag * other.imag) / denom
-        imag_part = (self.imag * other.real - self.real * other.imag) / denom
-        return Complex(real_part, imag_part)
-
-    def __repr__(self):
-        return f"{self.real:.1f}, {self.imag:.1f}"
-
-Ob1 = Complex(10, 21)
-Ob2 = Complex(2, 3)
-
-result = Ob1 / Ob2
-
-print("Result of division:", result)
+Ob1 = complex(10, 21)
+Ob2 = complex(2, 3) 
+print(Ob1+Ob2)
 
 
 ```
 
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/497ae5f4-9fb1-425e-b96a-6f53a2d39e07)
+![image](https://github.com/user-attachments/assets/2b7e7932-2f06-40ab-996a-5ece52d9df34)
 
 ### RESULT
 
