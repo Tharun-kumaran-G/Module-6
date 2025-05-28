@@ -73,7 +73,7 @@ obj_ost.flight()
 
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/b4259ad7-2571-400e-a27b-93f8fda2ab55)
+![image](https://github.com/user-attachments/assets/f1055e07-4363-4ed5-94a5-1f694a072306)
 
 ### RESULT
 
